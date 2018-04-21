@@ -1,10 +1,10 @@
 #一些需要每tick执行的指令
 #吟唱 技能检测 事件监听
+execute as @a[scores={chant=..0}] at @s run function event:endchant
 scoreboard players reset @a[tag=!chanting] chant
 scoreboard players reset @a[scores={MorphSheep=..0}] MorphSheep
 scoreboard players remove @a[tag=chanting] chant 1
 scoreboard players remove @a[scores={MorphSheep=1..}] MorphSheep 1
-execute as @a[scores={chant=..0}] at @s run function event:endchant
 execute as @a[scores={run=1..}] run function event:run
 execute as @a[scores={walk=1..}] run function event:walk
 execute as @a[scores={jump=1..}] run function event:jump

@@ -25,6 +25,10 @@ replaceitem entity @a[scores={skillType=3}] container.0 minecraft:snowball
 replaceitem entity @a[scores={skillType=4}] container.0 minecraft:ender_pearl
 replaceitem entity @a[scores={skillType=5}] container.0 minecraft:egg
 
-replaceitem entity @a[scores={skillType=2,skillCount=1},tag=2,team=blue] container.0 minecraft:chicken_spawn_egg{EntityTag:{id:"minecraft:chicken",ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Invulnerable:1b,Age:-2147483648,Silent:1b,NoAI:1b,IsChickenJockey:0b,Tags:["Trap1","trap","blue"]}}
+replaceitem entity @a[scores={skillType=2,skillCount=1},tag=2,team=blue] container.0 minecraft:chicken_spawn_egg{EntityTag:{id:"minecraft:chicken",ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Invulnerable:1b,Age:-2147483648,Silent:1b,NoAI:1b,IsChickenJockey:0b,Tags:["Trap1","blue"]}}
 
-replaceitem entity @a[scores={skillType=2,skillCount=1},tag=2,team=purple] container.0 minecraft:chicken_spawn_egg{EntityTag:{id:"minecraft:chicken",ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Invulnerable:1b,Age:-2147483648,Silent:1b,NoAI:1b,IsChickenJockey:0b,Tags:["Trap1","trap","purple"]}}
+replaceitem entity @a[scores={skillType=2,skillCount=1},tag=2,team=purple] container.0 minecraft:chicken_spawn_egg{EntityTag:{id:"minecraft:chicken",ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Invulnerable:1b,Age:-2147483648,Silent:1b,NoAI:1b,IsChickenJockey:0b,Tags:["Trap1","purple"]}}
+
+replaceitem entity @a[scores={skillType=2},tag=DecoyCharm,team=blue] container.0 minecraft:chicken_spawn_egg{EntityTag:{id:"minecraft:chicken",ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Invulnerable:1b,Age:-2147483648,Silent:1b,NoAI:1b,IsChickenJockey:0b,Tags:["DecoyCharm1","blue"]}}
+
+replaceitem entity @a[scores={skillType=2},tag=DecoyCharm,team=purple] container.0 minecraft:chicken_spawn_egg{EntityTag:{id:"minecraft:chicken",ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}],Invulnerable:1b,Age:-2147483648,Silent:1b,NoAI:1b,IsChickenJockey:0b,Tags:["DecoyCharm1","purple"]}}

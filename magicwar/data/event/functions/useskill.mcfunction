@@ -8,4 +8,4 @@ execute as @s[tag=Scry] run function skill:scry
 execute as @s[tag=Dispel] run function skill:dispel
 execute as @s[tag=Serenity] run function skill:serenity
 execute as @s[tag=Tempest] at @s run function skill:tempest
-execute as @s[tag=Gloomshroud] at @s run function skill:gloomshroud
+execute as @s[tag=GloomShroud] at @s run function skill:gloomshroud

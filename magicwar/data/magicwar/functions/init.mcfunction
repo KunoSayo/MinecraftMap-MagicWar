@@ -14,3 +14,6 @@ scoreboard objectives add skillCount dummy
 scoreboard objectives add elven dummy
 scoreboard objectives add returnID dummy
 scoreboard objectives add connect dummy
+scoreboard objectives add temp dummy
+scoreboard objectives add AfterimageID dummy
+scoreboard objectives add AfterimageTime dummy

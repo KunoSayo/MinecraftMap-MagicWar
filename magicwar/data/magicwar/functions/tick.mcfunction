@@ -22,3 +22,5 @@ execute as @a[scores={MorphSheep=0..}] at @s run function for:sheep
 #游戏运行所需循环(捡符文 丢符文 融合符文)
 function magicwar:check
 function for:gamebasic
+
+#test

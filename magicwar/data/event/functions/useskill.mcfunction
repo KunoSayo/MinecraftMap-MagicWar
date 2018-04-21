@@ -6,3 +6,6 @@ execute as @s[tag=MorphSheep] at @s run function skill:morphsheep
 execute as @s[tag=DisasterBarrier] run function skill:disasterbarrier
 execute as @s[tag=Scry] run function skill:scry
 execute as @s[tag=Dispel] run function skill:dispel
+execute as @s[tag=Serenity] run function skill:serenity
+execute at @s[tag=Tempest] run function skill:tempest
+execute at @s[tag=Gloomshroud] run function skill:gloomshroud
